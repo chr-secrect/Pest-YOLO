@@ -8,8 +8,7 @@
 python==3.7 pytorch==1.7.1
 
 ### 模型权重
-模型权重下载链接：
-数据集链接：
+模型权重下载链接: https://pan.baidu.com/s/132Y1KQ6cVSLvBej64xsneg  密码: is4h
 
 ### 运行demo
-python 
+python predict.py
