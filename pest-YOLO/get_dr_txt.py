@@ -1,8 +1,3 @@
-#-------------------------------------#
-#       mAP所需文件计算代码
-#       具体教程请查看Bilibili
-#       Bubbliiiing
-#-------------------------------------#
 import colorsys
 import os
 
@@ -111,7 +106,7 @@ class mAP_Yolo(YOLO):
         return 
 
 yolo = mAP_Yolo()
-image_ids = open('标注50张图像/ImageSets/Main/trainval.txt').read().strip().split()
+image_ids = open('ImageSets/Main/trainval.txt').read().strip().split()
 
 if not os.path.exists("./input"):
     os.makedirs("./input")
@@ -122,7 +117,7 @@ if not os.path.exists("./input/images-optional"):
 
 
 for image_id in tqdm(image_ids):
-    image_path = "标注50张图像/JPEGImages/"+image_id+".jpg"
+    image_path = "JPEGImages/"+image_id+".jpg"
     image = Image.open(image_path)
     # 开启后在之后计算mAP可以可视化
     image.save("./input/images-optional/"+image_id+".jpg")
