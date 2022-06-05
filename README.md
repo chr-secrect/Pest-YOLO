@@ -11,4 +11,6 @@ python==3.7 pytorch==1.7.1
 模型权重下载链接: https://pan.baidu.com/s/132Y1KQ6cVSLvBej64xsneg  密码: is4h
 
 ### 运行demo
-python predict.py
+python Pest-YOLO/predict.py
+
+### 其它细节待投稿成功在进行补充
