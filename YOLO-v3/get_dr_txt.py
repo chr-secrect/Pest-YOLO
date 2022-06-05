@@ -1,8 +1,3 @@
-#----------------------------------------------------#
-#   获取测试集的detection-result和images-optional
-#   具体视频教程可查看
-#   https://www.bilibili.com/video/BV1zE411u7Vw
-#----------------------------------------------------#
 import colorsys
 import os
 
